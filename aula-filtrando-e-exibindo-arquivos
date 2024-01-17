@@ -1,3 +1,25 @@
+
 #curso -DIO- Manipulando arquivos no linux
+
+pwd -> mostra em que diretório do sistema eu estou.
+
+cd /  -> leva para a raiz do sistema operacional
+
+cd ~  -> vai para o diretório raiz do usuário 
+
+ls | more ou ls | less (nome do | é pipe)  -> mostra os arquivos por demananda (cada 'entrer' mostra mais um arquivo)
+
+ls m?r*  -> lista arquivos no diret´prio que comecem com a letra m, a segunda letra pode ser qualquer, a terceira letra tem que ser 'r' e por fim pode existir qualquer coisa (*)
+
+ls arquivo[1-3].txt -> comando lista os arquivos:  arquivo1.txt arquivo2.txt e arquivo3.txt (ou seja, lista em intervalo)
+
+ls arquivo[2,5].txt -> comando para listar os arquivos: arquivo2.txt e arquivo5.txt (ou seja, lista os elementos definidos)
+
+
+buscar arquivos:
+
+find -name ./  aul*  -> busca arquivos a partir do diretório onde estou que as três prumeiras letras sejam aul.
+
+**importante para buscar em pastas específicas em uma busca geral é preciso ter permissão para tal.
 
 
