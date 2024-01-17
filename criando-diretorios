@@ -1,0 +1,10 @@
+comando: mkdir -> cria diretorio
+
+
+mkdir Documento  -> cria o diretório 'Documento'
+
+mkdir Meus Documentos -> cria o diretório Meus e depois o diretório Documentos
+
+*para criar o diretório com espaço no nome do diretório use ''. ex:
+mkdir 'Meus Documentos'  ->  cria o diretório Meus Docuemntos
+

@@ -1,0 +1,18 @@
+
+comando: rmdir -> exclui diretório
+comando: rm -> exlclui arquivo
+
+rmdir Documentos  -> exclui o diretório Documentos
+* o comando anterior só exclui o diretório se ele estiver sem nenhum documento
+
+**uma das formas de resolver o problema anterior é:
+1º entrar no diretório Documentos -> cd Documentos
+2º rm nome_do_arquivo.txt  -> exclui o arquivo nome_do_arquivo.txt
+
+
+
+rm *.txt -> remove todos os arquivos com extensão txt 
+
+rm -rf Planilhas/  -> apaga diretórios e arquivos (recursovamente(r)  forçando-os(f))  detro do diretório Planinlhas
+
+
